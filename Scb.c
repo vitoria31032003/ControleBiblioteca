@@ -10,3 +10,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+
+
+void tela_menu_principal(void);
