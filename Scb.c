@@ -17,7 +17,6 @@ void tela_menu_sobre(void);
 void tela_desenvolvedora(void);
 void tela_menu_login(void);
 void tela_menu_funcionarios(void);
-void tela_menu_cliente_usuario(void);
 void tela_menu_estoque(void);
 
 
@@ -27,7 +26,6 @@ int main(void){
   tela_desenvolvedora();
   tela_menu_login();
   tela_menu_funcionarios();
-  tela_menu_cliente_usuario();
   tela_menu_estoque();
   return 0;
 }
@@ -116,7 +114,7 @@ void tela_desenvolvedora(void){
   printf("***   = = = Sistema Controle de Biblioteca = = =           ***\n");
   printf("***                                                        ***\n");
   printf("***   Este projeto foi desenvolvido por:                   ***\n");
-  printf("***   Vitoria Geovanna de Assis Pereira	             ***\n");
+  printf("***   Vitoria Geovanna de Assis Pereira                    ***\n");
   printf("***   Git: https://github.com/vitoria31032003              ***\n");
   printf("***   Rede social: @vitoriageovanna18                      ***\n");
   printf("\n");
@@ -198,39 +196,6 @@ void tela_menu_funcionarios(void){
    printf("\n");
    printf("\t\t\t>>> Pressione <ENTER> para continuar...\n");
    getchar();
-}
-
-
-
-void tela_menu_cliente_usuario(void){
-   system("clear||cls");
-   printf("\n");
-   printf("************************************************************\n");
-   printf("***                                                      ***\n");
-   printf("***  =================================================== ***\n");
-   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
-   printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
-   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
-   printf("***  =================================================== ***\n");
-   printf("************************************************************\n");
-   printf("***                                                      ***\n");
-   printf("***  =================================================== ***\n");
-   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
-   printf("***  = = = = = = = Entrar Como Cliente/Usuario = = = = = ***\n");
-   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
-   printf("***  =================================================== ***\n");
-   printf("***                                                      ***\n");
-   printf("***  Nome do Usuario ou Email:                           ***\n");
-   printf("***  Senha:                                              ***\n");
-   printf("***                                                      ***\n");
-   printf("************************************************************\n");
-   getchar();
-   printf("///                                                      ///\n");
-   printf("////////////////////////////////////////////////////////////\n");
-   printf("\n");
-   printf("\t\t\t>>> Pressione <ENTER> para continuar...\n");
-   getchar();
-
 }
 
 
