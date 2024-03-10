@@ -19,6 +19,10 @@ void tela_menu_login(void);
 void tela_menu_funcionarios(void);
 void tela_menu_estoque(void);
 void entrar_como_administrador(void);
+void entrar_como_funcionario(void);
+void entrar_como_cliente_usuario(void);
+
+
 
 
 int main(void){
@@ -29,6 +33,8 @@ int main(void){
   tela_menu_funcionarios();
   tela_menu_estoque();
   entrar_como_administrador();
+  entrar_como_funcionario();
+  entrar_como_cliente_usuario();
   return 0;
 }
 
@@ -185,6 +191,60 @@ void entrar_como_administrador(void){
   printf("***                                                      ***\n");
   printf("************************************************************\n");
 }
+
+
+
+void entrar_como_funcionario(void){
+  system("clear"||"cls");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = Entrar como Funcionário = = = = = = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("***  Nome do Usuário:                                    ***\n");
+  printf("***  Senha:                                              ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+}
+
+
+
+void entrar_como_cliente_usuario(void){
+  system("clear"||"cls");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = Entrar como Clientes/Usuario  = = = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("***  Nome do Usuário:                                    ***\n");
+  printf("***  Senha:                                              ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+}
+
+
 
 void tela_menu_funcionarios(void){
    char op;
