@@ -12,6 +12,7 @@
 #include <stdlib.h>
 
 
+
 void tela_menu_principal(void);
 void tela_menu_sobre(void);
 void tela_desenvolvedora(void);
@@ -21,7 +22,6 @@ void tela_menu_estoque(void);
 void entrar_como_administrador(void);
 void entrar_como_funcionario(void);
 void entrar_como_cliente_usuario(void);
-
 
 
 
@@ -104,7 +104,8 @@ void tela_menu_sobre(void){
    getchar();
 }
 
-  
+
+
 void tela_desenvolvedora(void){
   system("clear||cls");
   printf("\n");
@@ -167,6 +168,8 @@ void tela_menu_login(void){
    printf("\t\t\t>>> Pressione <ENTER> para continuar...\n");
    getchar();
 }
+
+
 
 void entrar_como_administrador(void){
   system("clear"||"cls");
@@ -319,3 +322,6 @@ void tela_menu_estoque(void){
    printf("\t\t\t>>> Pressione <ENTER> para continuar...\n");
    getchar();
 }
+
+
+
