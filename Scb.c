@@ -14,3 +14,4 @@
 
 void tela_menu_principal(void);
 void tela_menu_sobre(void);
+void tela_desenvolvedora(void);
