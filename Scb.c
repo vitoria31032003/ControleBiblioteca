@@ -4,6 +4,5 @@
 ///   Departamento de Computação e Tecnologia         ///
 ///   Disciplina: Programação                         ///
 ///   Professor: Flavius Gorgônio                     ///
-///	  Projeto: Sistema de Controle de Biblioteca      ///
 ///   Aluna: Vitória Geovanna de Assis Pereira        ///
 /////////////////////////////////////////////////////////
