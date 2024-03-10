@@ -13,3 +13,4 @@
 
 
 void tela_menu_principal(void);
+void tela_menu_sobre(void);
