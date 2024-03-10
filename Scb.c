@@ -100,27 +100,27 @@ void tela_menu_sobre(void){
 
   
 void tela_desenvolvedora(void){
-	system("clear||cls");
+  system("clear||cls");
   printf("\n");
-	printf("**************************************************************\n");
+  printf("**************************************************************\n");
   printf("***   Universidade Federal do Rio Grande do Norte          ***\n");
-	printf("***   Centro de Ensino Superior do Serido                  ***\n");
-	printf("***   Departamento de Computacao e Tecnologia              ***\n");
-	printf("***   Disciplina: Programacao                              ***\n");
-	printf("***   Professor: Flavius Gorgonio                          ***\n");
-	printf("***   Projeto: Sistema de Controle de Biblioteca           ***\n");
-	printf("***   Aluna: Vitoria Geovanna de Assis Pereira             ***\n");
-	printf("***                                                   	   ***\n");    
-	printf("**************************************************************\n");
-	printf("***                                                        ***\n");
-	printf("***   = = = Sistema Controle de Biblioteca = = =           ***\n");
-	printf("***                                                        ***\n");
-	printf("***   Este projeto foi desenvolvido por:                   ***\n");
-	printf("***   Vitoria Geovanna de Assis Pereira	                   ***\n");
-	printf("***   Git: https://github.com/vitoria31032003              ***\n");
-	printf("***   Rede social: @vitoriageovanna18                      ***\n");
-	printf("\n");
-	printf("\t Pressione <ENTER> para continuar...\n");
-	getchar();
+  printf("***   Centro de Ensino Superior do Serido                  ***\n");
+  printf("***   Departamento de Computacao e Tecnologia              ***\n");
+  printf("***   Disciplina: Programacao                              ***\n");
+  printf("***   Professor: Flavius Gorgonio                          ***\n");
+  printf("***   Projeto: Sistema de Controle de Biblioteca           ***\n");
+  printf("***   Aluna: Vitoria Geovanna de Assis Pereira             ***\n");
+  printf("***                                                        ***\n");    
+  printf("**************************************************************\n");
+  printf("***                                                        ***\n");
+  printf("***   = = = Sistema Controle de Biblioteca = = =           ***\n");
+  printf("***                                                        ***\n");
+  printf("***   Este projeto foi desenvolvido por:                   ***\n");
+  printf("***   Vitoria Geovanna de Assis Pereira	             ***\n");
+  printf("***   Git: https://github.com/vitoria31032003              ***\n");
+  printf("***   Rede social: @vitoriageovanna18                      ***\n");
+  printf("\n");
+  printf("\t Pressione <ENTER> para continuar...\n");
+  getchar();
 
 }
