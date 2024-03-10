@@ -116,11 +116,48 @@ void tela_desenvolvedora(void){
   printf("***   = = = Sistema Controle de Biblioteca = = =           ***\n");
   printf("***                                                        ***\n");
   printf("***   Este projeto foi desenvolvido por:                   ***\n");
-  printf("***   Vitoria Geovanna de Assis Pereira	             ***\n");
+  printf("***   Vitoria Geovanna de Assis Pereira	                   ***\n");
   printf("***   Git: https://github.com/vitoria31032003              ***\n");
   printf("***   Rede social: @vitoriageovanna18                      ***\n");
   printf("\n");
   printf("\t Pressione <ENTER> para continuar...\n");
   getchar();
 
+}
+
+
+
+void tela_menu_login(void){
+	char op;
+	system("clear||cls");
+	printf("\n");
+	printf("************************************************************\n");
+	printf("***                                                      ***\n");
+	printf("***  =================================================== ***\n");
+	printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+	printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
+	printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+	printf("***  =================================================== ***\n");
+	printf("************************************************************\n");
+	printf("***                                                      ***\n");
+	printf("***  =================================================== ***\n");
+	printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+	printf("***  = = = = = = = =  Menu Login = = = = = = = = = = = = ***\n");
+	printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+	printf("***  =================================================== ***\n");
+	printf("***                                                      ***\n");
+	printf("***  1. Entrar no sistema como administrador             ***\n");
+	printf("***  2. Entrar no sistema como funcionario               ***\n"); 
+	printf("***  3. Entrar no sistema como cliente/usuario           ***\n");
+	printf("***  0. Voltar ao menu principal                         ***\n");
+	printf("***                                                      ***\n");
+	printf("***  Informe a opcao desejada:                           ***\n");
+	printf("***                                                      ***\n");
+	scanf("%c", &op);
+	getchar();
+	printf("///														 ///\n");
+	printf("////////////////////////////////////////////////////////////\n");
+	printf("\n");
+	printf("\t\t\t>>> Pressione <ENTER> para continuar...\n");
+	getchar();
 }
