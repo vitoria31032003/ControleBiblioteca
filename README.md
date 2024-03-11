@@ -9,3 +9,5 @@ Centro de Ensino Superior do Seridó
 Departamento de Computação e Tecnologia
 
 Disciplina: Programação
+
+Profeessor: Flavius Gorgonio
