@@ -1,5 +1,4 @@
 # ControleBiblioteca
 
 Projeto de Sistema de Controle para Biblioteca
-
-Universidade Federal do Rio Grande do Norte
+\nUniversidade Federal do Rio Grande do Norte
