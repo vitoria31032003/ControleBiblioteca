@@ -47,7 +47,7 @@ int main(void){
   liberar_renovacao();
   remover_livros();
   atualizar_livros();
-  visualizar_livros()
+  visualizar_livros();
   return 0;
 }
 
