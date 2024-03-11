@@ -10,4 +10,4 @@ Departamento de Computação e Tecnologia
 
 Disciplina: Programação
 
-Profeessor:  Gorgonio
+Profeessor: Flavius Gorgonio
