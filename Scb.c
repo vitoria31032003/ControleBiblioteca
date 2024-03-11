@@ -202,7 +202,7 @@ void entrar_como_administrador(void){
   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
   printf("***  =================================================== ***\n");
   printf("***                                                      ***\n");
-  printf("***  Nome do Usuário:                                    ***\n");
+  printf("***  Nome do Usuario:                                    ***\n");
   printf("***  Senha:                                              ***\n");
   printf("***                                                      ***\n");
   printf("************************************************************\n");
@@ -224,11 +224,11 @@ void entrar_como_funcionario(void){
   printf("***                                                      ***\n");
   printf("***  =================================================== ***\n");
   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
-  printf("***  = = = = Entrar como Funcionário = = = = = = = = = = ***\n");
+  printf("***  = = = = Entrar como Funcionario = = = = = = = = = = ***\n");
   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
   printf("***  =================================================== ***\n");
   printf("***                                                      ***\n");
-  printf("***  Nome do Usuário:                                    ***\n");
+  printf("***  Nome do Usuario:                                    ***\n");
   printf("***  Senha:                                              ***\n");
   printf("***                                                      ***\n");
   printf("************************************************************\n");
@@ -254,7 +254,7 @@ void entrar_como_cliente_usuario(void){
   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
   printf("***  =================================================== ***\n");
   printf("***                                                      ***\n");
-  printf("***  Nome do Usuário:                                    ***\n");
+  printf("***  Nome do Usuario:                                    ***\n");
   printf("***  Senha:                                              ***\n");
   printf("***                                                      ***\n");
   printf("************************************************************\n");
@@ -317,9 +317,9 @@ void cadastrar_cliente_usuario(void){
   printf("***  =================================================== ***\n");
   printf("***                                                      ***\n");
   printf("***  Nome Completo:                                      ***\n");
-  printf("***  Matrícula (Apenas número):                          ***\n");
+  printf("***  Matricula (Apenas numero):                          ***\n");
   printf("***  Data de Nascimento (DD/MM/AAAA):                    ***\n");
-  printf("***  Número de Telefone:                                 ***\n");
+  printf("***  Numero de Telefone:                                 ***\n");
   printf("***                                                      ***\n");
   printf("************************************************************\n");
 }
@@ -344,10 +344,10 @@ void liberar_emprestimo(void){
   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
   printf("***  =================================================== ***\n");
   printf("***                                                      ***\n");
-  printf("***  Marícula (Apenas números):                          ***\n");
+  printf("***  Marícula (Apenas numeros):                          ***\n");
   printf("***  ISBN:                                               ***\n");
   printf("***  Data do Empresimo:                                  ***\n");
-  printf("***  Data da Devolução:                                  ***\n");
+  printf("***  Data da Devolucao:                                  ***\n");
   printf("***                                                      ***\n");
   printf("************************************************************\n");
 }
@@ -367,11 +367,11 @@ void liberar_renovacao(void){
   printf("***                                                      ***\n");
   printf("***  =================================================== ***\n");
   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
-  printf("***  = = = = = Liberar Renovação = = = = = = = = = = = = ***\n");
+  printf("***  = = = = = Liberar Renovacao = = = = = = = = = = = = ***\n");
   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
   printf("***  =================================================== ***\n");
   printf("***                                                      ***\n");
-  printf("***  Nome do Usuuário:                                   ***\n");
+  printf("***  Nome do Usuario:                                    ***\n");
   printf("***  ISBN:                                               ***\n");
   printf("***  Data do Vecimento:                                  ***\n");
   printf("***  Data do Retorno:                                    ***\n");
@@ -489,9 +489,9 @@ void atualizar_livros(void){
   printf("***  =================================================== ***\n");
   printf("***                                                      ***\n");
   printf("***  Informe ISBN:                                       ***\n");
-  printf("***  Título:                                             ***\n");
+  printf("***  Titulo:                                             ***\n");
   printf("***  Autor:                                              ***\n");
-  printf("***  Livros Disponíveis:                                 ***\n");
+  printf("***  Livros Disponiveis:                                 ***\n");
   printf("***                                                      ***\n");
   printf("************************************************************\n");
 }
