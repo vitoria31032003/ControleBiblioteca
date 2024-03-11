@@ -23,6 +23,8 @@ void entrar_como_administrador(void);
 void entrar_como_funcionario(void);
 void entrar_como_cliente_usuario(void);
 void cadastrar_cliente_usuario(void);
+void cadastrar_livros(void);
+void liberar_emprestimo(void);
 
 
 
@@ -37,6 +39,9 @@ int main(void){
   entrar_como_funcionario();
   entrar_como_cliente_usuario();
   cadastrar_cliente_usuario();
+  cadastrar_livros();
+  liberar_emprestimo();liberar_emprestimo();
+  
   return 0;
 }
 
@@ -271,9 +276,8 @@ void tela_menu_funcionarios(void){
    printf("***  =================================================== ***\n");	
    printf("***                                                      ***\n");
    printf("***  1. Cadastrar Clientes/Usuarios                      ***\n");	
-   printf("***  2. Gerir o Estoque                                  ***\n");	
-   printf("***  3. Liberar o Emprestimos de Livros                  ***\n");
-   printf("***  4. Liberar a Renovacao de Livros                    ***\n");
+   printf("***  2. Liberar o Emprestimos de Livros                  ***\n");
+   printf("***  3. Liberar a Renovacao de Livros                    ***\n");
    printf("***  0. Voltar ao menu principal                         ***\n");
    printf("***                                                      ***\n");
    printf("***  Informe a opcao desejada:                           ***\n");
@@ -315,6 +319,36 @@ void cadastrar_cliente_usuario(void){
 }
 
 
+
+void liberar_emprestimo(void){
+  system("clear"||"cls");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = = Liberar Emprestimo  = = = = = = = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("***  Marícula (Apenas números):                          ***\n");
+  printf("***  ISBN:                                               ***\n");
+  printf("***  Data do Empresimo:                                  ***\n");
+  printf("***  Data de Devolução:                                  ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+}
+
+
+
+
 void tela_menu_estoque(void){
    char op;
    system("clear||cls");
@@ -349,6 +383,35 @@ void tela_menu_estoque(void){
    printf("\n");
    printf("\t\t\t>>> Pressione <ENTER> para continuar...\n");
    getchar();
+}
+
+
+
+
+void cadastrar_livros(void){
+  system("clear"||"cls");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = Cadastrar Livros  = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("***  Título:                                             ***\n");
+  printf("***  ISBN:                                               ***\n");
+  printf("***  Autor:                                              ***\n");
+  printf("***  Livros Disponíveis:                                 ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
 }
 
 
