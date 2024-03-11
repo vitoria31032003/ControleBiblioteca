@@ -65,7 +65,7 @@ void tela_menu_principal(void){
     printf("***   Professor: Flavius Gorgonio                           ***\n");
     printf("***   Projeto: Sistema de Controle de Biblioteca            ***\n");
     printf("***   Aluna: Vitoria Geovanna de Assis Pereira              ***\n");
-    printf("***                                                       	***\n");    
+    printf("***                                                         ***\n");    
     printf("***************************************************************\n");
     printf("***                                                         ***\n");
     printf("***  = = = Sistema Controle de Biblioteca = = =             ***\n");
