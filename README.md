@@ -10,7 +10,7 @@ Departamento de Computação e Tecnologia
 
 Disciplina: Programação 
 
-Desenvolvido por: Vitória Geovanna
+Desenvolvido por: Vitória Geovanna 
 
 # Controle de Biblioteca
 
