@@ -436,10 +436,10 @@ void cadastrar_livros(void){
   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
   printf("***  =================================================== ***\n");
   printf("***                                                      ***\n");
-  printf("***  Título:                                             ***\n");
+  printf("***  Titulo:                                             ***\n");
   printf("***  ISBN:                                               ***\n");
   printf("***  Autor:                                              ***\n");
-  printf("***  Livros Disponíveis:                                 ***\n");
+  printf("***  Livros Disponiveis:                                 ***\n");
   printf("***                                                      ***\n");
   printf("************************************************************\n");
 }
@@ -516,9 +516,9 @@ void visualizar_livros(void){
   printf("***  =================================================== ***\n");
   printf("***                                                      ***\n");
   printf("***  ISBN:                                               ***\n");
-  printf("***  Título:                                             ***\n");
+  printf("***  Titulo:                                             ***\n");
   printf("***  Autor:                                              ***\n");
-  printf("***  Livros Disponíveis:                                 ***\n");
+  printf("***  Livros Disponiveis:                                 ***\n");
   printf("***                                                      ***\n");
   printf("************************************************************\n");
 }
