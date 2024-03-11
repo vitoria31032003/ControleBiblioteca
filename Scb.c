@@ -341,7 +341,7 @@ void liberar_emprestimo(void){
   printf("***  Marícula (Apenas números):                          ***\n");
   printf("***  ISBN:                                               ***\n");
   printf("***  Data do Empresimo:                                  ***\n");
-  printf("***  Data de Devolução:                                  ***\n");
+  printf("***  Data da Devolução:                                  ***\n");
   printf("***                                                      ***\n");
   printf("************************************************************\n");
 }
