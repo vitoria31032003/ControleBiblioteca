@@ -25,7 +25,10 @@ void entrar_como_cliente_usuario(void);
 void cadastrar_cliente_usuario(void);
 void cadastrar_livros(void);
 void liberar_emprestimo(void);
-
+void liberar_renovacao(void);
+void remover_livros(void);
+void atualizar_livros(void);
+void visualizar_livros(void);
 
 
 int main(void){
@@ -40,8 +43,11 @@ int main(void){
   entrar_como_cliente_usuario();
   cadastrar_cliente_usuario();
   cadastrar_livros();
-  liberar_emprestimo();liberar_emprestimo();
-  
+  liberar_emprestimo();
+  liberar_renovacao();
+  remover_livros();
+  atualizar_livros();
+  visualizar_livros()
   return 0;
 }
 
@@ -347,6 +353,31 @@ void liberar_emprestimo(void){
 }
 
 
+void liberar_renovacao(void){
+  system("clear"||"cls");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = = Liberar Renovação = = = = = = = = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("***  Nome do Usuuário:                                   ***\n");
+  printf("***  ISBN:                                               ***\n");
+  printf("***  Data do Vecimento:                                  ***\n");
+  printf("***  Data do Retorno:                                    ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+}
 
 
 void tela_menu_estoque(void){
@@ -387,7 +418,6 @@ void tela_menu_estoque(void){
 
 
 
-
 void cadastrar_livros(void){
   system("clear"||"cls");
   printf("************************************************************\n");
@@ -416,3 +446,79 @@ void cadastrar_livros(void){
 
 
 
+void remover_livros(void){
+  system("clear"||"cls");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = = Remover Livros  = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("***  ISBN:                                               ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+}
+
+
+void atualizar_livros(void){
+  system("clear"||"cls");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = = Atualizar Livros  = = = = = = = = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("***  Informe ISBN:                                       ***\n");
+  printf("***  Título:                                             ***\n");
+  printf("***  Autor:                                              ***\n");
+  printf("***  Livros Disponíveis:                                 ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+}
+
+
+void visualizar_livros(void){
+  system("clear"||"cls");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = = Visualizar Livros = = = = = = = = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("***  ISBN:                                               ***\n");
+  printf("***  Título:                                             ***\n");
+  printf("***  Autor:                                              ***\n");
+  printf("***  Livros Disponíveis:                                 ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+}
