@@ -1,4 +1,4 @@
-# ControleBiblioteca
+# Controle de Biblioteca
 
 Projeto: Sistema de Controle para Biblioteca
 
