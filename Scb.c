@@ -55,7 +55,7 @@ int main(void){
 
 void tela_menu_principal(void){
     char op;
-    system("clear||cls");
+    system("clear"||"cls");
     printf("\n");
     printf("***************************************************************\n");
     printf("***   Universidade Federal do Rio Grande do Norte           ***\n");
@@ -90,7 +90,7 @@ void tela_menu_principal(void){
 
 
 void tela_menu_sobre(void){
-   system("clear||cls");
+ system("clear"||"cls");
    printf("\n");
    printf("**************************************************************\n");
    printf("***   Universidade Federal do Rio Grande do Norte          ***\n");
@@ -120,7 +120,7 @@ void tela_menu_sobre(void){
 
 
 void tela_desenvolvedora(void){
-  system("clear||cls");
+  system("clear"||"cls");
   printf("\n");
   printf("**************************************************************\n");
   printf("***   Universidade Federal do Rio Grande do Norte          ***\n");
@@ -149,7 +149,7 @@ void tela_desenvolvedora(void){
 
 void tela_menu_login(void){
    char op;
-   system("clear||cls");
+   system("clear"||"cls");
    printf("\n");
    printf("************************************************************\n");
    printf("***                                                      ***\n");
@@ -264,7 +264,7 @@ void entrar_como_cliente_usuario(void){
 
 void tela_menu_funcionarios(void){
    char op;
-   system("clear||cls");
+   system("clear"||"cls");
    printf("\n");
    printf("************************************************************\n");
    printf("***                                                      ***\n");
@@ -382,7 +382,7 @@ void liberar_renovacao(void){
 
 void tela_menu_estoque(void){
    char op;
-   system("clear||cls");
+   system("clear"||"cls");
    printf("\n");
    printf("************************************************************\n");
    printf("***                                                      ***\n");
