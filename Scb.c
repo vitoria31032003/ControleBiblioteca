@@ -55,7 +55,7 @@ int main(void){
 
 void tela_menu_principal(void){
     char op;
-    system("clear"||"cls");
+    system("clear||cls");
     printf("\n");
     printf("***************************************************************\n");
     printf("***   Universidade Federal do Rio Grande do Norte           ***\n");
@@ -90,7 +90,7 @@ void tela_menu_principal(void){
 
 
 void tela_menu_sobre(void){
- system("clear"||"cls");
+ system("clear||cls");
    printf("\n");
    printf("**************************************************************\n");
    printf("***   Universidade Federal do Rio Grande do Norte          ***\n");
@@ -120,7 +120,7 @@ void tela_menu_sobre(void){
 
 
 void tela_desenvolvedora(void){
-  system("clear"||"cls");
+  system("clear||cls");
   printf("\n");
   printf("**************************************************************\n");
   printf("***   Universidade Federal do Rio Grande do Norte          ***\n");
@@ -149,7 +149,7 @@ void tela_desenvolvedora(void){
 
 void tela_menu_login(void){
    char op;
-   system("clear"||"cls");
+   system("clear||cls");
    printf("\n");
    printf("************************************************************\n");
    printf("***                                                      ***\n");
@@ -185,7 +185,7 @@ void tela_menu_login(void){
 
 
 void entrar_como_administrador(void){
-  system("clear"||"cls");
+  system("clear||cls");
   printf("************************************************************\n");
   printf("***                                                      ***\n");
   printf("***  =================================================== ***\n");
@@ -211,7 +211,7 @@ void entrar_como_administrador(void){
 
 
 void entrar_como_funcionario(void){
-  system("clear"||"cls");
+  system("clear||cls");
   printf("************************************************************\n");
   printf("***                                                      ***\n");
   printf("***  =================================================== ***\n");
@@ -237,7 +237,7 @@ void entrar_como_funcionario(void){
 
 
 void entrar_como_cliente_usuario(void){
-  system("clear"||"cls");
+  system("clear||cls");
   printf("************************************************************\n");
   printf("***                                                      ***\n");
   printf("***  =================================================== ***\n");
@@ -264,7 +264,7 @@ void entrar_como_cliente_usuario(void){
 
 void tela_menu_funcionarios(void){
    char op;
-   system("clear"||"cls");
+   system("clear||cls");
    printf("\n");
    printf("************************************************************\n");
    printf("***                                                      ***\n");
@@ -299,7 +299,7 @@ void tela_menu_funcionarios(void){
 
 
 void cadastrar_cliente_usuario(void){
-  system("clear"||"cls");
+  system("clear||cls");
   printf("************************************************************\n");
   printf("***                                                      ***\n");
   printf("***  =================================================== ***\n");
@@ -327,7 +327,7 @@ void cadastrar_cliente_usuario(void){
 
 
 void liberar_emprestimo(void){
-  system("clear"||"cls");
+  system("clear||cls");
   printf("************************************************************\n");
   printf("***                                                      ***\n");
   printf("***  =================================================== ***\n");
@@ -354,7 +354,7 @@ void liberar_emprestimo(void){
 
 
 void liberar_renovacao(void){
-  system("clear"||"cls");
+  system("clear||cls");
   printf("************************************************************\n");
   printf("***                                                      ***\n");
   printf("***  =================================================== ***\n");
@@ -382,7 +382,7 @@ void liberar_renovacao(void){
 
 void tela_menu_estoque(void){
    char op;
-   system("clear"||"cls");
+   system("clear||cls");
    printf("\n");
    printf("************************************************************\n");
    printf("***                                                      ***\n");
@@ -419,7 +419,7 @@ void tela_menu_estoque(void){
 
 
 void cadastrar_livros(void){
-  system("clear"||"cls");
+  system("clear||cls");
   printf("************************************************************\n");
   printf("***                                                      ***\n");
   printf("***  =================================================== ***\n");
@@ -447,7 +447,7 @@ void cadastrar_livros(void){
 
 
 void remover_livros(void){
-  system("clear"||"cls");
+  system("clear||cls");
   printf("************************************************************\n");
   printf("***                                                      ***\n");
   printf("***  =================================================== ***\n");
@@ -471,7 +471,7 @@ void remover_livros(void){
 
 
 void atualizar_livros(void){
-  system("clear"||"cls");
+  system("clear||cls");
   printf("************************************************************\n");
   printf("***                                                      ***\n");
   printf("***  =================================================== ***\n");
@@ -498,7 +498,7 @@ void atualizar_livros(void){
 
 
 void visualizar_livros(void){
-  system("clear"||"cls");
+  system("clear||cls");
   printf("************************************************************\n");
   printf("***                                                      ***\n");
   printf("***  =================================================== ***\n");
