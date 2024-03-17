@@ -90,7 +90,7 @@ void tela_menu_principal(void){
 
 
 void tela_menu_sobre(void){
- system("clear||cls");
+   system("clear||cls");
    printf("\n");
    printf("**************************************************************\n");
    printf("***   Universidade Federal do Rio Grande do Norte          ***\n");
