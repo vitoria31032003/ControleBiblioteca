@@ -28,7 +28,7 @@ void liberar_emprestimo(void);
 void liberar_renovacao(void);
 void remover_livros(void);
 void atualizar_livros(void);
-void visualizar_livros(void);
+void quantidade_livros(void);
 
 
 int main(void){
@@ -47,7 +47,7 @@ int main(void){
   liberar_renovacao();
   remover_livros();
   atualizar_livros();
-  visualizar_livros();
+  quantidade_livros();
   return 0;
 }
 
@@ -402,7 +402,7 @@ void tela_menu_estoque(void){
    printf("***  1. Cadastrar Livros                                 ***\n");
    printf("***  2. Remover Livros                                   ***\n");
    printf("***  3. Atualizar Livros                                 ***\n");
-   printf("***  4. Visualizar Livros Disponiveis                    ***\n");	
+   printf("***  4. Quantidade de Livros Disponiveis                 ***\n");	
    printf("***  0. Voltar ao menu principal                         ***\n");
    printf("***                                                      ***\n");
    printf("***  Informe a opcao desejada:                           ***\n");
@@ -497,7 +497,7 @@ void atualizar_livros(void){
 }
 
 
-void visualizar_livros(void){
+void quantidade_livros(void){
   system("clear||cls");
   printf("************************************************************\n");
   printf("***                                                      ***\n");
@@ -511,7 +511,7 @@ void visualizar_livros(void){
   printf("***                                                      ***\n");
   printf("***  =================================================== ***\n");
   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
-  printf("***  = = = = = Visualizar Livros Disponiveis = = = = = = ***\n");
+  printf("***  = = = = = Quantidade de Livros Disponiveis  = = = = ***\n");
   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
   printf("***  =================================================== ***\n");
   printf("***                                                      ***\n");
