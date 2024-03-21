@@ -71,9 +71,8 @@ void tela_menu_principal(void){
     printf("***  = = = Sistema Controle de Biblioteca = = =             ***\n");
     printf("***                                                         ***\n");
     printf("***  1. Modulo Login                                        ***\n");
-    printf("***  2. Modulo Funcioarios                                  ***\n");
-    printf("***  3. Modulo Clientes/Usuarios                            ***\n");
-    printf("***  4. Modulo Estoque                                      ***\n");
+    printf("***  2. Modulo Clientes/Usuarios                            ***\n");
+    printf("***  3. Modulo Estoque                                      ***\n");
     printf("***  0. Sair                                                ***\n");
     printf("***                                                         ***\n");
     printf("***  Informe a opcao desejada:                              ***\n");
@@ -395,7 +394,7 @@ void tela_menu_estoque(void){
    printf("***                                                      ***\n");
    printf("***  =================================================== ***\n");
    printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
-   printf("***  = = = = = = = =  Estoque = = = = = = =  = = = = = = ***\n");
+   printf("***  = = = = = = = = Menu Estoque = = = = = = =  = = = = ***\n");
    printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
    printf("***  =================================================== ***\n");	
    printf("***                                                      ***\n");
