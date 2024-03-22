@@ -71,6 +71,7 @@ void tela_menu_principal(void){
     printf("***  = = = Sistema Controle de Biblioteca = = =             ***\n");
     printf("***                                                         ***\n");
     printf("***  1. Modulo Login                                        ***\n");
+    printf("***  2. Modulo Funcionarios                                 ***\n");
     printf("***  2. Modulo Clientes/Usuarios                            ***\n");
     printf("***  3. Modulo Estoque                                      ***\n");
     printf("***  0. Sair                                                ***\n");
