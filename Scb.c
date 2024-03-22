@@ -273,6 +273,10 @@ void entrar_como_cliente_usuario(void){
 
 
 
+
+
+
+
 void tela_menu_funcionarios(void){
    char op;
    system("clear||cls");
@@ -391,11 +395,45 @@ void liberar_renovacao(void){
 }
 
 
-
 void tela_menu_clientes_usuarios(void){
-  char op;
+   char op;
+   system("clear||cls");
+   printf("\n");
+   printf("************************************************************\n");
+   printf("***                                                      ***\n");
+   printf("***  =================================================== ***\n");
+   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+   printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
+   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+   printf("***  =================================================== ***\n");
+   printf("************************************************************\n");
+   printf("***                                                      ***\n");
+   printf("***  =================================================== ***\n");
+   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+   printf("***  = = = = = = = =  Menu Clientes/Usuarios = = = = = = ***\n");
+   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+   printf("***  =================================================== ***\n");	
+   printf("***                                                      ***\n");
+   printf("***  1. Solicitar Cadastro                               ***\n");
+   printf("***  2. Solicitar Emprestimo                             ***\n");
+   printf("***  3. Solicitar Renovacao                              ***\n");
+   printf("***  4. Alterar Dados Pessoais                           ***\n");
+   printf("***  0. Voltar ao menu principal                         ***\n");
+   printf("***                                                      ***\n");
+   printf("***  Informe a opcao desejada:                           ***\n");
+   printf("***                                                      ***\n");
+   scanf("%c", &op);
+   getchar();
+   printf("///                                                      ///\n");
+   printf("////////////////////////////////////////////////////////////\n");
+   printf("\n");
+   printf("\t\t\t>>> Pressione <ENTER> para continuar...\n");
+   getchar();
+
+}
+
+void solicitar_cadastro(void){
   system("clear||cls");
-  printf("\n");
   printf("************************************************************\n");
   printf("***                                                      ***\n");
   printf("***  =================================================== ***\n");
@@ -403,33 +441,108 @@ void tela_menu_clientes_usuarios(void){
   printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
   printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
   printf("************************************************************\n");
   printf("***                                                      ***\n");
   printf("***  =================================================== ***\n");
   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
-  printf("***  = = = = = = = =  Menu Clientes/Usuarios = = = = = = ***\n");
+  printf("***  = = = = = = = = Solicitar Cadastro  = = = = = = = = ***\n");
   printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
-  printf("***  =================================================== ***\n");	
+  printf("***  =================================================== ***\n");
   printf("***                                                      ***\n");
-  printf("***  1. Solicitar Cadastro                               ***\n");
-  printf("***  2. Solicitar Emprestimo                             ***\n");
-  printf("***  3. Solicitar Renovacao                              ***\n");
-  printf("***  4. Alterar Dados Pessoais                           ***\n");
-  printf("***  0. Voltar ao menu principal                         ***\n");
+  printf("***  Nome Completo:                                      ***\n");
+  printf("***  Telefone:                                           ***\n");
+  printf("***  Data de Nascimento:                                 ***\n");
+  printf("***  Matricula:                                          ***\n");
   printf("***                                                      ***\n");
-  printf("***  Informe a opcao desejada:                           ***\n");
-  printf("***                                                      ***\n");
-  scanf("%c", &op);
-  getchar();
-  printf("///                                                      ///\n");
-  printf("////////////////////////////////////////////////////////////\n");
-  printf("\n");
-  printf("\t\t\t>>> Pressione <ENTER> para continuar...\n");
-  getchar();
+  printf("************************************************************\n");
 }
 
 
 
+void solicitar_emprestimo(void){
+  system("clear||cls");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = = = = Solicitar Emprestimo  = = = = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("***  Nome Completo:                                      ***\n");
+  printf("***  Matricula:                                          ***\n");
+  printf("***  ISBN:                                               ***\n");
+  printf("***  Data de retirada:                                   ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+}
+
+
+
+void solicitar_renovacao(void){
+  system("clear||cls");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = = = = Solicitar Renovcao  = = = = = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("***  Nome Completo:                                      ***\n");
+  printf("***  Matricula:                                          ***\n");
+  printf("***  ISBN:                                               ***\n");
+  printf("***  Data do vencimento:                                 ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+
+}
+  
+  
+ 
+void alterar_dados_pessoais(void){
+  system("clear||cls");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = = = = = Alterar Dados Pessoais  = = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***                                                      ***\n");
+  printf("***  Nome Completo:                                      ***\n");
+  printf("***  Telefone:                                           ***\n");
+  printf("***                                                      ***\n");
+  printf("************************************************************\n");
+}
+ 
+ 
+  
 void tela_menu_estoque(void){
    char op;
    system("clear||cls");
