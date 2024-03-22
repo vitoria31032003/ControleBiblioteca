@@ -273,10 +273,6 @@ void entrar_como_cliente_usuario(void){
 
 
 
-
-
-
-
 void tela_menu_funcionarios(void){
   char op;
   system("clear||cls");
@@ -311,6 +307,7 @@ void tela_menu_funcionarios(void){
   printf("\t\t\t>>> Pressione <ENTER> para continuar...\n");
   getchar();
 }
+
 
 
 void cadastrar_cliente_usuario(void){
@@ -368,6 +365,7 @@ void liberar_emprestimo(void){
 }
 
 
+
 void liberar_renovacao(void){
   system("clear||cls");
   printf("************************************************************\n");
@@ -393,6 +391,7 @@ void liberar_renovacao(void){
   printf("***                                                      ***\n");
   printf("************************************************************\n");
 }
+
 
 
 void tela_menu_clientes_usuarios(void){
@@ -429,8 +428,9 @@ void tela_menu_clientes_usuarios(void){
   printf("\n");
   printf("\t\t\t>>> Pressione <ENTER> para continuar...\n");
   getchar();
-
 }
+
+
 
 void solicitar_cadastro(void){
   system("clear||cls");
@@ -633,6 +633,7 @@ void remover_livros(void){
 }
 
 
+
 void atualizar_livros(void){
   system("clear||cls");
   printf("************************************************************\n");
@@ -658,6 +659,7 @@ void atualizar_livros(void){
   printf("***                                                      ***\n");
   printf("************************************************************\n");
 }
+
 
 
 void quantidade_livros(void){
