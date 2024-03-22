@@ -24,6 +24,10 @@ void entrar_como_administrador(void);
 void entrar_como_funcionario(void);
 void entrar_como_cliente_usuario(void);
 void cadastrar_cliente_usuario(void);
+void solicitar_cadastro(void);
+void solicitar_emprestimo(void);
+void solicitar_renovacao(void);
+void alterar_dados_pessoais(void);
 void cadastrar_livros(void);
 void liberar_emprestimo(void);
 void liberar_renovacao(void);
@@ -32,18 +36,23 @@ void atualizar_livros(void);
 void quantidade_livros(void);
 
 
+
 int main(void){
   tela_menu_principal();
   tela_menu_sobre();
   tela_desenvolvedora();
   tela_menu_login();
-  tela_menu_clientes_usuarios();
   tela_menu_funcionarios();
+  tela_menu_clientes_usuarios();
   tela_menu_estoque();
   entrar_como_administrador();
   entrar_como_funcionario();
   entrar_como_cliente_usuario();
   cadastrar_cliente_usuario();
+  solicitar_cadastro();
+  solicitar_emprestimo();
+  solicitar_renovacao();
+  alterar_dados_pessoais();
   cadastrar_livros();
   liberar_emprestimo();
   liberar_renovacao();
