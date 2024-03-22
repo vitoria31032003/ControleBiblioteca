@@ -18,6 +18,7 @@ void tela_menu_sobre(void);
 void tela_desenvolvedora(void);
 void tela_menu_login(void);
 void tela_menu_funcionarios(void);
+void tela_menu_clientes_usuarios(void);
 void tela_menu_estoque(void);
 void entrar_como_administrador(void);
 void entrar_como_funcionario(void);
@@ -36,6 +37,7 @@ int main(void){
   tela_menu_sobre();
   tela_desenvolvedora();
   tela_menu_login();
+  tela_menu_clientes_usuarios();
   tela_menu_funcionarios();
   tela_menu_estoque();
   entrar_como_administrador();
@@ -378,6 +380,45 @@ void liberar_renovacao(void){
   printf("***                                                      ***\n");
   printf("************************************************************\n");
 }
+
+
+
+void tela_menu_clientes_usuarios(void){
+  char op;
+  system("clear||cls");
+  printf("\n");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");
+  printf("************************************************************\n");
+  printf("***                                                      ***\n");
+  printf("***  =================================================== ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  = = = = = = = =  Menu Clientes/Usuarios = = = = = = ***\n");
+  printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+  printf("***  =================================================== ***\n");	
+  printf("***                                                      ***\n");
+  printf("***  1. Solicitar Cadastro                               ***\n");
+  printf("***  2. Solicitar Emprestimo                             ***\n");
+  printf("***  3. Solicitar Renovacao                              ***\n");
+  printf("***  4. Alterar Dados Pessoais                           ***\n");
+  printf("***  0. Voltar ao menu principal                         ***\n");
+  printf("***                                                      ***\n");
+  printf("***  Informe a opcao desejada:                           ***\n");
+  printf("***                                                      ***\n");
+  scanf("%c", &op);
+  getchar();
+  printf("///                                                      ///\n");
+  printf("////////////////////////////////////////////////////////////\n");
+  printf("\n");
+  printf("\t\t\t>>> Pressione <ENTER> para continuar...\n");
+  getchar();
+}
+
 
 
 void tela_menu_estoque(void){
