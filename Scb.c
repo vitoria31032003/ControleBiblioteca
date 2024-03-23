@@ -89,7 +89,7 @@ void tela_menu_principal(void){
    printf("***                                                         ***\n");
    printf("***  Informe a opcao desejada:                              ***\n");
    printf("***                                                         ***\n");
-   scanf("%c", &op);
+   scanf("%d", &op);
    getchar();
    printf("///                                                         ///\n");
    printf("///////////////////////////////////////////////////////////////\n");
@@ -184,7 +184,7 @@ void tela_menu_login(void){
    printf("***                                                      ***\n");
    printf("***  Informe a opcao desejada:                           ***\n");
    printf("***                                                      ***\n");
-   scanf("%c", &op);
+   scanf("%d", &op);
    getchar();
    printf("///                                                      ///\n");
    printf("////////////////////////////////////////////////////////////\n");
@@ -299,7 +299,7 @@ void tela_menu_funcionarios(void){
   printf("***                                                      ***\n");
   printf("***  Informe a opcao desejada:                           ***\n");
   printf("***                                                      ***\n");
-  scanf("%c", &op);
+  scanf("%d", &op);
   getchar();
   printf("///                                                      ///\n");
   printf("////////////////////////////////////////////////////////////\n");
@@ -421,7 +421,7 @@ void tela_menu_clientes_usuarios(void){
   printf("***                                                      ***\n");
   printf("***  Informe a opcao desejada:                           ***\n");
   printf("***                                                      ***\n");
-  scanf("%c", &op);
+  scanf("%d", &op);
   getchar();
   printf("///                                                      ///\n");
   printf("////////////////////////////////////////////////////////////\n");
@@ -570,7 +570,7 @@ void tela_menu_estoque(void){
   printf("***                                                      ***\n");
   printf("***  Informe a opcao desejada:                           ***\n");
   printf("***                                                      ***\n");
-  scanf("%c", &op);
+  scanf("%d", &op);
   getchar();
   printf("///                                                      ///\n");
   printf("////////////////////////////////////////////////////////////\n");
