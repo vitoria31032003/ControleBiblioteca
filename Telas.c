@@ -210,7 +210,7 @@ void tela_menu_funcionarios(void)
 	printf("***  1. Cadastrar Clientes/Usuarios                      ***\n");
 	printf("***  2. Liberar o Emprestimos de Livros                  ***\n");
 	printf("***  3. Liberar a Renovacao de Livros                    ***\n");
-    printf("***  4. Registar a Devolucao de Livros                   ***\n");
+        printf("***  4. Registar a Devolucao de Livros                   ***\n");
 	printf("***  0. Voltar ao menu principal                         ***\n");
 	printf("***                                                      ***\n");
 	printf("***  Informe a opcao desejada:                           ***\n");
@@ -227,9 +227,9 @@ void tela_menu_funcionarios(void)
 	case 3:
 		liberar_renovacao();
 		break;
-    case 4:
-    	registar_devolucao();
-    	break;
+        case 4:
+    	       registar_devolucao();
+    	       break;
 	case 0:
 		tela_menu_principal();
 		break;
@@ -570,7 +570,7 @@ void tela_menu_acervo(void)
 	case 4:
 		quantidade_livros();
 		break;
-    case 0:
+       case 0:
 		tela_menu_principal();
 		break;
 		
