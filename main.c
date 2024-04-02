@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "telas.h"
+#include "tela.h"
 
 int main(void) {
   
