@@ -14,7 +14,6 @@
 #include "acervo.h"
 
 
-
 void tela_menu_acervo(void)
 {
 	int op = 100;
