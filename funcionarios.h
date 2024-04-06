@@ -14,7 +14,6 @@
 #include "funcionarios.h"
 
 
-
 void tela_menu_funcionarios(void)
 {
 	system("clear||cls");
