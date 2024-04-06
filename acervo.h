@@ -58,7 +58,7 @@ void tela_menu_acervo(void)
 	case 4:
 		quantidade_livros();
 		break;
-    case 0:
+        case 0:
 		tela_menu_principal();
 		break;
 		
