@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "tela.h"
+#include "telas.h"
 
 int main(void) {
   
