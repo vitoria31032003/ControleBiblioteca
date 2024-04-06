@@ -15,7 +15,8 @@
 
 
 
-void tela_menu_sobre(void){
+void tela_menu_sobre(void)
+{
 	system("clear||cls");
   printf("\n");
 	printf("**************************************************************\n");
