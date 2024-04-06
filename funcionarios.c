@@ -63,8 +63,8 @@ void tela_menu_funcionarios(void)
 	     break;
 	
 	default:
-		printf("Informe uma opcao valida");
-		break;
+	    printf("Informe uma opcao valida");
+	    break;
 	}
 }
 
