@@ -38,7 +38,7 @@ void tela_menu_funcionarios(void)
 	printf("***  1. Cadastrar Clientes/Usuarios                      ***\n");
 	printf("***  2. Liberar o Emprestimos de Livros                  ***\n");
 	printf("***  3. Liberar a Renovacao de Livros                    ***\n");
-  printf("***  4. Registar a Devolucao de Livros                   ***\n");
+        printf("***  4. Registar a Devolucao de Livros                   ***\n");
 	printf("***  0. Voltar ao menu principal                         ***\n");
 	printf("***                                                      ***\n");
 	printf("***  Informe a opcao desejada:                           ***\n");
