@@ -17,7 +17,7 @@
 
 void tela_menu_funcionarios(void)
 {
-  int op = 100;
+        int op = 100;
 	system("clear||cls");
 	printf("\n");
 	printf("************************************************************\n");
