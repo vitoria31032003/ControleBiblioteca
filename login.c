@@ -14,6 +14,7 @@
 #include "login.h"
 
 
+
 void tela_menu_login(void)
 {
 	int op = 100;
@@ -64,6 +65,7 @@ void tela_menu_login(void)
 }
 
 
+
 void entrar_como_administrador(void)
 {
 	system("clear||cls");
@@ -90,6 +92,7 @@ void entrar_como_administrador(void)
 }
 
 
+
 void entrar_como_funcionario(void)
 {
 	system("clear||cls");
@@ -114,6 +117,7 @@ void entrar_como_funcionario(void)
 	printf("***                                                      ***\n");
 	printf("************************************************************\n");
 }
+
 
 
 void entrar_como_cliente_usuario(void)
