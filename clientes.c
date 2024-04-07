@@ -17,54 +17,54 @@
 
 void tela_menu_clientes_usuarios(void)
 {
-	      int op = 100;
-	      system("clear||cls");
-	      printf("\n");
-	      printf("************************************************************\n");
-	      printf("***                                                      ***\n");
-	      printf("***  =================================================== ***\n");
-	      printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
-	      printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
-	      printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
-	      printf("***  =================================================== ***\n");
-	      printf("************************************************************\n");
-	      printf("***                                                      ***\n");
-	      printf("***  =================================================== ***\n");
-      	      printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
-	      printf("***  = = = = = = = =  Menu Clientes/Usuarios = = = = = = ***\n");
-	      printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
-	      printf("***  =================================================== ***\n");
-	      printf("***                                                      ***\n");
-	      printf("***  1. Solicitar Cadastro                               ***\n");
-      	      printf("***  2. Solicitar Emprestimo                             ***\n");
-	      printf("***  3. Solicitar Renovacao                              ***\n");
-       	      printf("***  4. Alterar Dados Pessoais                           ***\n");
-      	      printf("***  0. Voltar ao menu principal                         ***\n");
-	      printf("***                                                      ***\n");
-	      printf("***  Informe a opcao desejada:                           ***\n");
-	      printf("***                                                      ***\n");
-	      scanf("%d", &op);
-	      switch(op)
-      	      {
-      	      case 1:
-		     solicitar_cadastro();
-	      	     break;
-    	      case 2:
-	    	     solicitar_emprestimo();
-	    	     break;
-	      case 3:
-		     solicitar_renovacao();
-		     break;
-	      case 4:
-	             alterar_dados_pessoais();
-		     break;
-	      case 0:
-	  	     tela_menu_principal();
-		     break;
+	int op = 100;
+	system("clear||cls");
+	printf("\n");
+	printf("************************************************************\n");
+	printf("***                                                      ***\n");
+	printf("***  =================================================== ***\n");
+	printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+	printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
+	printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+	printf("***  =================================================== ***\n");
+	printf("************************************************************\n");
+	printf("***                                                      ***\n");
+	printf("***  =================================================== ***\n");
+      	printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+	printf("***  = = = = = = = =  Menu Clientes/Usuarios = = = = = = ***\n");
+	printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+	printf("***  =================================================== ***\n");
+	printf("***                                                      ***\n");
+        printf("***  1. Solicitar Cadastro                               ***\n");
+        printf("***  2. Solicitar Emprestimo                             ***\n");
+	printf("***  3. Solicitar Renovacao                              ***\n");
+       	printf("***  4. Alterar Dados Pessoais                           ***\n");
+      	printf("***  0. Voltar ao menu principal                         ***\n");
+	printf("***                                                      ***\n");
+	printf("***  Informe a opcao desejada:                           ***\n");
+	printf("***                                                      ***\n");
+	scanf("%d", &op);
+	switch(op)
+      	{
+      	case 1:
+		solicitar_cadastro();
+	      	break;
+    	case 2:
+	    	solicitar_emprestimo();
+	        break;
+	case 3:
+		solicitar_renovacao();
+		break;
+	case 4:
+	        alterar_dados_pessoais();
+		break;
+	case 0:
+	  	tela_menu_principal();
+		break;
 
-	      default:
-		       printf("Informe uma opcao valida");
-		       break;
+	default:
+		printf("Informe uma opcao valida");
+		break;
 	}
 }
 
