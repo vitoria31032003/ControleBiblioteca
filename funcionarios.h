@@ -13,6 +13,7 @@
 #define FUNCIONARIOS_H
 
 
+void tela_menu_funcionarios(void);
 void cadastrar_cliente_usuario(void);
 void liberar_emprestimo(void);
 void liberar_renovacao(void);
