@@ -59,9 +59,9 @@ void tela_menu_acervo(void)
 	       quantidade_livros();
                break;
 		
-       case 0:
-              tela_menu_principal();
-              break;
+        case 0:
+               tela_menu_principal();
+               break;
       
        default:
                printf("Informe uma opcao valida");
