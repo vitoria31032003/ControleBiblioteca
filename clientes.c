@@ -30,26 +30,26 @@ void tela_menu_clientes_usuarios(void)
 	printf("************************************************************\n");
 	printf("***                                                      ***\n");
 	printf("***  =================================================== ***\n");
-      	printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+        printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
 	printf("***  = = = = = = = =  Menu Clientes/Usuarios = = = = = = ***\n");
 	printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
 	printf("***  =================================================== ***\n");
 	printf("***                                                      ***\n");
         printf("***  1. Solicitar Cadastro                               ***\n");
         printf("***  2. Solicitar Emprestimo                             ***\n");
-	printf("***  3. Solicitar Renovacao                              ***\n");
-       	printf("***  4. Alterar Dados Pessoais                           ***\n");
-      	printf("***  0. Voltar ao menu principal                         ***\n");
+        printf("***  3. Solicitar Renovacao                              ***\n");
+        printf("***  4. Alterar Dados Pessoais                           ***\n");
+        printf("***  0. Voltar ao menu principal                         ***\n");
 	printf("***                                                      ***\n");
 	printf("***  Informe a opcao desejada:                           ***\n");
 	printf("***                                                      ***\n");
 	scanf("%d", &op);
 	switch(op)
       	{
-      	case 1:
-		solicitar_cadastro();
-	      	break;
-    	case 2:
+        case 1:
+                solicitar_cadastro();
+                break;
+        case 2:
 	    	solicitar_emprestimo();
 	        break;
 	case 3:
