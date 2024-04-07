@@ -38,7 +38,7 @@ void tela_menu_acervo(void)
 	printf("***  1. Cadastrar Livros                                 ***\n");
 	printf("***  2. Remover Livros                                   ***\n");
 	printf("***  3. Atualizar Livros                                 ***\n");
-      	printf("***  4. Quantidade de Livros Disponiveis                 ***\n");
+        printf("***  4. Quantidade de Livros Disponiveis                 ***\n");
 	printf("***  0. Voltar ao menu principal                         ***\n");
 	printf("***                                                      ***\n");
 	printf("***  Informe a opcao desejada:                           ***\n");
