@@ -15,6 +15,12 @@
 
 
 
+#include <stdio.h>
+#include <stdlib.h>
+#include "funcionarios.h"
+
+
+
 void tela_menu_funcionarios(void)
 {
 	int op = 100;
@@ -38,7 +44,7 @@ void tela_menu_funcionarios(void)
 	printf("***  1. Cadastrar Clientes/Usuarios                      ***\n");
 	printf("***  2. Liberar o Emprestimos de Livros                  ***\n");
 	printf("***  3. Liberar a Renovacao de Livros                    ***\n");
-        printf("***  4. Registar a Devolucao de Livros                   ***\n");
+	printf("***  4. Registar a Devolucao de Livros                   ***\n");
 	printf("***  0. Voltar ao menu principal                         ***\n");
 	printf("***                                                      ***\n");
 	printf("***  Informe a opcao desejada:                           ***\n");
@@ -55,16 +61,16 @@ void tela_menu_funcionarios(void)
 	case 3:
 		liberar_renovacao();
 		break;
-        case 4:
+       case 4:
                registar_devolucao();
                break;
-        case 0:
-                tela_menu_principal();
-                break;
+       case 0:
+		tela_menu_principal();
+		break;
 	
-        default:
-                printf("Informe uma opcao valida");
-                break;
+       default:
+		printf("Informe uma opcao valida");
+		break;
 	}
 }
 
