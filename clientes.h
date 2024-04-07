@@ -12,6 +12,7 @@
 #ifndef CLIENTES_H
 #define CLIENTES_H
 
+
 void tela_menu_clientes_usuarios(void);
 void solicitar_cadastro(void);
 void solicitar_emprestimo(void);
