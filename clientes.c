@@ -30,7 +30,7 @@ void tela_menu_clientes_usuarios(void)
 	printf("************************************************************\n");
 	printf("***                                                      ***\n");
 	printf("***  =================================================== ***\n");
-    printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+        printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
 	printf("***  = = = = = = = =  Menu Clientes/Usuarios = = = = = = ***\n");
 	printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
 	printf("***  =================================================== ***\n");
@@ -47,20 +47,20 @@ void tela_menu_clientes_usuarios(void)
 	switch(op)
 	{
 	case 1:
-		solicitar_cadastro();
-		break;
+               solicitar_cadastro();
+	       break;
 	case 2:
-		solicitar_emprestimo();
-		break;
+	       solicitar_emprestimo();
+	       break;
 	case 3:
-		solicitar_renovacao();
-		break;
+               solicitar_renovacao();
+	       break;
 	case 4:
-		alterar_dados_pessoais();
-		break;
+               alterar_dados_pessoais();
+               break;
 	case 0:
-		tela_menu_principal();
-		break;
+               tela_menu_principal();
+               break;
 	
 	default:
 		printf("Informe uma opcao valida");
