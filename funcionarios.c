@@ -15,12 +15,6 @@
 
 
 
-#include <stdio.h>
-#include <stdlib.h>
-#include "funcionarios.h"
-
-
-
 void tela_menu_funcionarios(void)
 {
 	int op = 100;
