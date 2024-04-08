@@ -19,7 +19,7 @@ void tela_sobre(void)
 {
 	system("clear||cls");
         printf("\n");
-      	printf("**************************************************************\n");
+        printf("**************************************************************\n");
         printf("***   Universidade Federal do Rio Grande do Norte          ***\n");
 	printf("***   Centro de Ensino Superior do Serido                  ***\n");
 	printf("***   Departamento de Computacao e Tecnologia              ***\n");
