@@ -69,7 +69,6 @@ void tela_menu_funcionarios(void)
 }
 
 
-
 void cadastrar_cliente_usuario(void)
 {
 	system("clear||cls");
