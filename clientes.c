@@ -30,16 +30,16 @@ void tela_menu_clientes_usuarios(void)
 	printf("************************************************************\n");
 	printf("***                                                      ***\n");
 	printf("***  =================================================== ***\n");
-        printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+    printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
 	printf("***  = = = = = = = =  Menu Clientes/Usuarios = = = = = = ***\n");
 	printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
 	printf("***  =================================================== ***\n");
 	printf("***                                                      ***\n");
-        printf("***  1. Solicitar Cadastro                               ***\n");
-        printf("***  2. Solicitar Emprestimo                             ***\n");
+    printf("***  1. Solicitar Cadastro                               ***\n");
+    printf("***  2. Solicitar Emprestimo                             ***\n");
 	printf("***  3. Solicitar Renovacao                              ***\n");
-        printf("***  4. Alterar Dados Pessoais                           ***\n");
-        printf("***  0. Voltar ao menu principal                         ***\n");
+    printf("***  4. Alterar Dados Pessoais                           ***\n");
+    printf("***  0. Voltar ao menu principal                         ***\n");
 	printf("***                                                      ***\n");
 	printf("***  Informe a opcao desejada:                           ***\n");
 	printf("***                                                      ***\n");
@@ -47,20 +47,20 @@ void tela_menu_clientes_usuarios(void)
 	switch(op)
 	{
 	case 1:
-               solicitar_cadastro();
+           solicitar_cadastro();
 	       break;
 	case 2:
 	       solicitar_emprestimo();
 	       break;
 	case 3:
-               solicitar_renovacao();
+           solicitar_renovacao();
 	       break;
 	case 4:
-               alterar_dados_pessoais();
-               break;
+           alterar_dados_pessoais();
+           break;
 	case 0:
-               tela_menu_principal();
-               break;
+           tela_menu_principal();
+           break;
 	
 	default:
 		printf("Informe uma opcao valida");
