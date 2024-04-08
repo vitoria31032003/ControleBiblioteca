@@ -59,10 +59,11 @@ void tela_menu_funcionarios(void)
                 registar_devolucao();
                 break;
         case 0:
-		tela_menu_principal();
-		break;
+                tela_menu_principal();
+                break;
 	
         default:
+		
 		printf("Informe uma opcao valida");
 		break;
 	}
