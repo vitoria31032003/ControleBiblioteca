@@ -10,7 +10,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "biblioteca.h"
 #include "login.h"
 #include "funcionarios.h"
 #include "clientes.h"
