@@ -56,11 +56,11 @@ void tela_menu_funcionarios(void)
 		liberar_renovacao();
 		break;
         case 4:
-               registar_devolucao();
+                registar_devolucao();
+                break;
+        case 0:
+               tela_menu_principal();
                break;
-       case 0:
-              tela_menu_principal();
-              break;
 	
        default:
            printf("Informe uma opcao valida");
