@@ -1,4 +1,4 @@
- ///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
 /// Universidade Federal do Rio Grande do Norte         ///
 /// Centro de Ensino Superior do Seridó                 ///
 /// Departamento de Computação e Tecnologia             ///
@@ -30,16 +30,16 @@ void tela_menu_clientes_usuarios(void)
 	printf("************************************************************\n");
 	printf("***                                                      ***\n");
 	printf("***  =================================================== ***\n");
-    printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
+        printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
 	printf("***  = = = = = = = =  Menu Clientes/Usuarios = = = = = = ***\n");
 	printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
 	printf("***  =================================================== ***\n");
 	printf("***                                                      ***\n");
-    printf("***  1. Solicitar Cadastro                               ***\n");
-    printf("***  2. Solicitar Emprestimo                             ***\n");
+        printf("***  1. Solicitar Cadastro                               ***\n");
+        printf("***  2. Solicitar Emprestimo                             ***\n");
 	printf("***  3. Solicitar Renovacao                              ***\n");
-    printf("***  4. Alterar Dados Pessoais                           ***\n");
-    printf("***  0. Voltar ao menu principal                         ***\n");
+        printf("***  4. Alterar Dados Pessoais                           ***\n");
+        printf("***  0. Voltar ao menu principal                         ***\n");
 	printf("***                                                      ***\n");
 	printf("***  Informe a opcao desejada:                           ***\n");
 	printf("***                                                      ***\n");
