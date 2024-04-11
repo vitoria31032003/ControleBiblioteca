@@ -52,18 +52,18 @@ void tela_menu_acervo(void)
 	case 2:
             remover_livros();
             break;
-       case 3:
-           atualizar_livros();
-           break;
-       case 4:
-           quantidade_livros();
-           break;
+        case 3:
+            atualizar_livros();
+            break;
+        case 4:
+            quantidade_livros();
+            break;
 		
-       case 0:
-           tela_menu_principal();
-           break;
+        case 0:
+            tela_menu_principal();
+            break;
       
-       default:
+        default:
             printf("Informe uma opcao valida");
             break;
 	}
