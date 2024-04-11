@@ -26,7 +26,7 @@ void tela_menu_acervo(void)
 	printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
 	printf("***  = = = = Sistema de Controle de Biblioteca = = = = = ***\n");
 	printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
-    printf("***  =================================================== ***\n");
+        printf("***  =================================================== ***\n");
 	printf("************************************************************\n");
 	printf("***                                                      ***\n");
 	printf("***  =================================================== ***\n");
@@ -34,11 +34,11 @@ void tela_menu_acervo(void)
 	printf("***  = = = = = = = = Menu Acervo = = = = = = = = = = = = ***\n");
 	printf("***  = = = = = = = = = = = = = = = = = = = = = = = = = = ***\n");
 	printf("***  =================================================== ***\n");
-    printf("***                                                      ***\n");
+        printf("***                                                      ***\n");
 	printf("***  1. Cadastrar Livros                                 ***\n");
 	printf("***  2. Remover Livros                                   ***\n");
 	printf("***  3. Atualizar Livros                                 ***\n");
-    printf("***  4. Quantidade de Livros Disponiveis                 ***\n");
+        printf("***  4. Quantidade de Livros Disponiveis                 ***\n");
 	printf("***  0. Voltar ao menu principal                         ***\n");
 	printf("***                                                      ***\n");
 	printf("***  Informe a opcao desejada:                           ***\n");
@@ -47,25 +47,25 @@ void tela_menu_acervo(void)
 	switch(op)
 	{
 	case 1:
-        cadastrar_livros();
-        break;
+           cadastrar_livros();
+           break;
 	case 2:
-        remover_livros();
-        break;
-    case 3:
-        atualizar_livros();
-        break;
-    case 4:
-        quantidade_livros();
-        break;
+           remover_livros();
+           break;
+       case 3:
+           atualizar_livros();
+           break;
+       case 4:
+           quantidade_livros();
+           break;
 		
-    case 0:
-        tela_menu_principal();
-        break;
+       case 0:
+           tela_menu_principal();
+           break;
       
-    default:
-        printf("Informe uma opcao valida");
-        break;
+       default:
+           printf("Informe uma opcao valida");
+           break;
 	}
 }
 
