@@ -61,7 +61,6 @@ void tela_menu_principal(void){
 		break;
 
 	default:
-		
 		printf("Informe uma opcao valida");
 		break;
 	}
