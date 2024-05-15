@@ -63,6 +63,7 @@ void tela_menu_clientes_usuarios(void)
 		printf("Informe uma opcao valida");
 		break;
 }
+}
 
 
 
