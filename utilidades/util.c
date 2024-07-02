@@ -1,1 +1,0 @@
-Organizando as funções utilidades
