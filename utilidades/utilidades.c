@@ -289,7 +289,7 @@ bool val_fone(char *fone) {
             
             if (!isdigit(fone[i])) {
                 
-                printf("Inv?lido\n");
+                printf("Invalido\n");
                 
                 return false;
             }
