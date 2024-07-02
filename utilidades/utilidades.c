@@ -1,11 +1,11 @@
 ///////////////////////////////////////////////////////////
 /// Universidade Federal do Rio Grande do Norte         ///
-/// Centro de Ensino Superior do Seridó                 ///
-/// Departamento de Computação e Tecnologia             ///
-/// Disciplina: Programação                             ///
-/// Professor: Flavius Gorgônio                         ///
+/// Centro de Ensino Superior do SeridÃ³                 ///
+/// Departamento de ComputaÃ§Ã£o e Tecnologia             ///
+/// Disciplina: ProgramaÃ§Ã£o                             ///
+/// Professor: Flavius GorgÃ´nio                         ///
 /// Projeto: Sistema de Controle de Biblioteca          ///
-/// Aluna: Vitória Geovanna de Assis Pereira            ///
+/// Aluna: VitÃ³ria Geovanna de Assis Pereira            ///
 ///////////////////////////////////////////////////////////
 
 
@@ -44,8 +44,6 @@ void recebe_senha(char *senha_struct)
 {
 	
     int val = 0;
-    
-    char senha[21]; 
 
     while (val != 1)
     {
