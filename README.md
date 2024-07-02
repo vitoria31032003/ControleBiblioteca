@@ -14,4 +14,4 @@ Desenvolvido por: Vitória Geovanna
 
 # Controle de Biblioteca
 
-Este programa de Controle de Biblioteca é desenvolvido em linguagem C, durante a disciplina de Programação do curso de Sistemas de Informação da Universidade Federal do Rio Grande do Norte. Este programa permite gerenciar o acervo de livros, ele inclui os principais módulos e funcionalidade, como cadastrar, atualizar, verificar a quantidade de livros disponíveis e entre outras fucionalidades.
+Este programa de Controle de Biblioteca é desenvolvido em linguagem C, durante a disciplina de Programação do curso de Sistemas de Informação da Universidade Federal do Rio Grande do Norte. Este programa permite gerenciar o acervo de livros, ele inclui os principais módulos e funcionalidade, como cadastrar, pesquisar, atualizar, remover e entre outras fucionalidades.
