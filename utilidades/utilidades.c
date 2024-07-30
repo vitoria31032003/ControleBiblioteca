@@ -1,11 +1,11 @@
 ///////////////////////////////////////////////////////////
 /// Universidade Federal do Rio Grande do Norte         ///
-/// Centro de Ensino Superior do SeridÛ                 ///
-/// Departamento de ComputaÁ„o e Tecnologia             ///
-/// Disciplina: ProgramaÁ„o                             ///
-/// Professor: Flavius GorgÙnio                         ///
+/// Centro de Ensino Superior do Serid√≥                 ///
+/// Departamento de Computa√ß√£o e Tecnologia             ///
+/// Disciplina: Programa√ß√£o                             ///
+/// Professor: Flavius Gorg√¥nio                         ///
 /// Projeto: Sistema de Controle de Biblioteca          ///
-/// Aluna: VitÛria Geovanna de Assis Pereira            ///
+/// Aluna: Vit√≥ria Geovanna de Assis Pereira            ///
 ///////////////////////////////////////////////////////////
 
 
@@ -18,7 +18,7 @@
 
 
 ////////////////////////
-/// FunÁ„o de input  ///
+/// Fun√ß√£o de input  ///
 ////////////////////////
 char input(void)
 {
@@ -246,7 +246,7 @@ int recebe_data(char *data) {
 
                                 if (!isdigit(data[i])) {
 
-                                        printf("Data inv·lida\n");
+                                        printf("Data inv√°lida\n");
 
                                         return 0;
                                 }
@@ -279,7 +279,7 @@ int recebe_data(char *data) {
 
                 if (val_data(dia_int, mes_int, ano_int)) {
 
-                    printf("Data v·lida\n");
+                    printf("Data v√°lida\n");
 
                     return 1;
                 }
@@ -354,7 +354,7 @@ bool val_isbn(char *isbn)
 
   if (strlen(isbn) != 13)
   {
-    printf("O ISBN deve conter exatamente 13 dÌgitos.\n");
+    printf("O ISBN deve conter exatamente 13 d√≠gitos.\n");
 
     return false;
   }
@@ -363,7 +363,7 @@ bool val_isbn(char *isbn)
   {
     if (!isdigit(isbn[i]))
     {
-      printf("O ISBN deve conter apenas dÌgitos.\n");
+      printf("O ISBN deve conter apenas d√≠gitos.\n");
       return false;
     }
   }
@@ -385,14 +385,14 @@ int recebe_isbn(char *isbn)
 
     }else {
 
-      printf("ISBN inv·lido. Tente novamente.\n");
+      printf("ISBN inv√°lido. Tente novamente.\n");
 
 
     }
   }
   return 1;
 }
-
+/// Autora: Vitoria Geovanna de Assis Pereira /// GIT: https://github.com/vitoria31032003
 
 ////////////////////////
 /// Limpar o Buffer ///
